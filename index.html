@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Sketch with Overlay</title>
+  <!-- Include p5.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <!-- Include p5.js sound library (if needed) -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script> -->
+  <!-- Include Tone.js library -->
+  <script src="http://unpkg.com/tone"></script>
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- The overlay div -->
+  <div id="overlay">
+    <div id="overlay-content">
+      <h1>dist.cs</h1>
+      <ul>
+        <li>dist.cs, also known as distCollective, is a multidisciplinary artist duo based in Turkey and Spain, founded
+          in 2019 by Bilge İçözü and Ilgın İçözü. Their work is characterized by deep exploration of the organic
+          elements of computational aesthetics, achieved through the use of generative algorithms. The duo’s passion for
+          exploring new forms of expression with modern technologies has led them to work in a wide range of fields such
+          as music, animation, visual, and generative art.</li>
+        <li>Their first exhibition as a duo was held in Istanbul by Akbank Sanat in 2022. Following that, they
+          participated in an interactive exhibition (live minting experience with long-form generative collection) at
+          Art Basel Miami 2022 in collaboration with the Tezos Foundation and fx(hash). They also joined Proof of
+          People’s live minting experience with their long-form generative collection in New York in 2023. Their works
+          have been exhibited in art fairs and galleries in Turkey, the United States, the United Kingdom, Spain, France
+          and Italy.</li>
+      </ul>
+      <h2>Works</h2>
+      <h4>
+        <li><a href="https://objkt.com/@distcollective" target="_blank" rel="noopener noreferrer">objkt</a></li>
+        <li><a href="https://www.fxhash.xyz/u/DistCollective" target="_blank" rel="noopener noreferrer">fxhash</a></li>
+        <li><a href="https://www.artblocks.io/marketplace/artists/distcollective-1" target="_blank"
+            rel="noopener noreferrer">artblocks</a></li>
+        <li><a href="https://distcs.xyz/plotter-works" target="_blank" rel="noopener noreferrer">plotter</a></li>
+        <li><a href=" https://distcs.xyz/prints" target="_blank" rel="noopener noreferrer">prints</a></li>
+      </h4>
+      <h2>Socials</h2>
+      <h4>
+        <li><a href="https://x.com/dist_cs" target="_blank" rel="noopener noreferrer">X</a></li>
+        <li><a href="https://www.instagram.com/dist.cs/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li>distcollective@gmail.com</li>
+      </h4>
+      <h2>Selected exhibitions</h2>
+      <h4>
+        <li>2023, MINERAL, Galerie Data, Paris, France</li>
+        <li>
+          2023, The Generative Art Corner, Vertical CyrptoArt, Rome, Italy
+        </li>
+        <li>
+          2023, Proof of People x Refraction, Vertical CyrptoArt, New York, United States
+        </li>
+        <li>2023, Companions of Code, Vertical CyrptoArt x The NFT Gallery, London, United
+          Kingdom
+        </li>
+        <li>2023, Seçici İletken, Contemporary Istanbul Foundation, Istanbul, Turkey
+        </li>
+        <li>2022, Art Basel Miami Beach, Art Basel & Tezos Foundation & fx(hash), Miami, United States
+        </li>
+        <li>2022, NFT Show Europe, NFT Show Europe,Valencia, Spain
+        </li>
+        <li>2022, Now in digital Art and Alternate Realities + NFT, Akbank Sanat, Istanbul, Turkey
+        </li>
+        <li>2021, Contemporary Istanbul, De Artium, Istanbul Turkey
+        </li>
+      </h4>
+      <h2>Residencies</h2>
+      <h4>
+        2023, Vertical Crypto Art Residency, Vertical Crypto Art, Online
+      </h4>
+      <h2>Selected Media & Press</h2>
+      <h4>
+        <li><a
+            href="https://www.forbes.com/sites/digital-assets/2023/10/30/web3-travel-guides-the-parisian-crypto-art-scene/"
+            target="_blank" rel="noopener noreferrer">
+            2024, 30 October, Ana Maria Caballero, “Web3 Travel Guides: The Parisian Crypto Art Scene” in Online
+            resource
+          </a></li>
+        <li><a href="https://artdogistanbul.com/secici-iletken-fisekhanede/" target="_blank" rel="noopener noreferrer">
+            2023, 9 January, Artdog Istanbul, ““Seçici İletken” Fişekhane’de” in Online resource
+          </a></li>
+        <li>
+          2023, 15 July, Conference, “Synergies: Expanding artistic frontiers ”
+        </li>
+        <li><a href="https://www.youtube.com/watch?v=wCrYedIZOSU" target="_blank" rel="noopener noreferrer">
+            2022, 6 December, Interview, “Inside the Algorithm: Meet the Artists – Tezos x Art Basel Miami Beach 2022”
+            in Online resource
+          </a></li>
+        <li><a href="https://aposto.com/i/pikselbulten9" target="_blank" rel="noopener noreferrer">
+            2022, 18 December, Pixel.Bulten, “Piksel.Bulten#9” in Online resource
+          </a></li>
+        <li><a href="https://financefeeds.com/tezos-presents-interactive-nft-exhibition-at-art-basel-miami-beach/"
+            target="_blank" rel="noopener noreferrer">
+            2022, 22 November, Abdelaziz Fathi, “Tezos Presents Interactive NFT Exhibition at Art Basel Miami Beach” in
+            Online resource
+          </a></li>
+        <li><a href="https://www.youtube.com/watch?v=Tfq-Nc1QG0s" target="_blank" rel="noopener noreferrer">
+            2022, 7 April, Interview, “Jeneratif Sanat ve Yeni Bir Alan Olarak NFT” in Online resource
+          </a></li>
+          <li><a href="https://www.youtube.com/watch?v=gX2VoT7GjKY" target="_blank" rel="noopener noreferrer">
+            2022, 13 April, Interview, “NFT’yi Sanatçılara Sorduk” in Online resource
+          </a></li>
+          <li><a href="https://www.akbanksanat.com/en/exhibition/dijital-sanatta-simdi-alternatif-gerceklikler-nft" target="_blank" rel="noopener noreferrer">
+            2022, 1 March, Akbank Sanat, “Now in Digital Art: Alternate Realities + NFT” in Online resource
+          </a></li>
+
+
+
+
+      </h4>
+
+
+    </div>
+    <div id="back-button"></div>
+  </div>
+
+  <!-- The p5.js sketch will be rendered in this container -->
+  <div id="p5-container"></div>
+
+  <!-- Include the JavaScript file -->
+  <script src="sketch2.js"></script>
+</body>
+
+</html>
